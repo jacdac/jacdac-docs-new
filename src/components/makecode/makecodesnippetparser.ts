@@ -83,7 +83,7 @@ export default function parseMakeCodeSnippet(
 
     // add jacdac by default
     if (!meta.dependencies.length)
-        meta.dependencies.push("jacdac=github:microsoft/pxt-jacdac")
+        meta.dependencies.push("jacdac=github:jacdac/pxt-jacdac")
 
     // ensure unique deps
     meta.dependencies = unique(meta.dependencies)

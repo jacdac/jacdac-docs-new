@@ -66,7 +66,7 @@ ${html}
         or
         <a
             target="_blank"
-            href="https://github.com/microsoft/jacdac/discussions"
+            href="https://github.com/jacdac/jacdac/discussions"
             >start a discussion</a
         >.
         </small>

@@ -6,7 +6,7 @@ order: 90
 ## Device Definition
 
 The Jacdac project maintains a catalog of known [devices](/devices/)
-in the [Jacdac repository](https://github.com/microsoft/jacdac).
+in the [Jacdac repository](https://github.com/jacdac/jacdac).
 Any manufacturer of Jacdac device is encouraged to add their own devices
 to the catalog following the instructions below.
 
@@ -15,7 +15,7 @@ Refer to [device development](/ddk) for specific information about designing and
 ## Catalog format
 
 The device catalog is stored as JSON and JPEG images,
-organized under the [Jacdac devices](https://github.com/microsoft/jacdac/tree/main/devices) folder.
+organized under the [Jacdac devices](https://github.com/jacdac/jacdac/tree/main/devices) folder.
 Each company may create a new folder for their devices (or multiple folders for product families).
 
 ### Device specification
@@ -50,7 +50,7 @@ Firmware updates can be hosted as **UF2 files** of GitHub repositories.
 Upon detecting a device with the specified firmware identifier,
 Jacdac will automatically query the device catalog for the firmware repository, and download the latest firmware.
 
--   example [jacdac-msr-modules releases](https://github.com/microsoft/jacdac-msr-modules/tree/main/dist)
+-   example [jacdac-msr-modules releases](https://github.com/jacdac/jacdac-msr-modules/tree/main/dist)
 
 The procedure runs as follows:
 

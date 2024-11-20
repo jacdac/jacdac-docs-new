@@ -20,8 +20,8 @@ export default function Page() {
             <p>
                 Post your questions, bugs, suggestions on the centralized
                 discussions at{" "}
-                <a href="https://github.com/microsoft/jacdac/discussions">
-                    https://github.com/microsoft/jacdac/discussions
+                <a href="https://github.com/jacdac/jacdac/discussions">
+                    https://github.com/jacdac/jacdac/discussions
                 </a>
                 .
             </p>
@@ -38,15 +38,15 @@ export default function Page() {
                 dense
                 nodes={[
                     {
-                        title: "microsoft/jacdac",
+                        title: "jacdac/jacdac",
                         description:
                             "Service specifications and device catalog",
-                        href: "https://github.com/microsoft/jacdac",
+                        href: "https://github.com/jacdac/jacdac",
                     },
                     {
-                        title: "microsoft/jacdac-ddk",
+                        title: "jacdac/jacdac-ddk",
                         description: "Device Development Kit",
-                        href: "https://github.com/microsoft/jacdac-ddk",
+                        href: "https://github.com/jacdac/jacdac-ddk",
                     },
                 ]}
             />
@@ -57,52 +57,52 @@ export default function Page() {
                 dense
                 nodes={[
                     {
-                        title: "microsoft/jacdac-c",
+                        title: "jacdac/jacdac-c",
                         description: "C Firmware library",
-                        href: "https://github.com/microsoft/jacdac-c",
+                        href: "https://github.com/jacdac/jacdac-c",
                     },
                     {
-                        title: "microsoft/jacdac-stm32x0",
+                        title: "jacdac/jacdac-stm32x0",
                         description: "Firmware library for STM32F0 and similar",
-                        href: "https://github.com/microsoft/jacdac-stm32x0",
+                        href: "https://github.com/jacdac/jacdac-stm32x0",
                     },
                     {
-                        title: "microsoft/jacdac-msr-modules",
+                        title: "jacdac/jacdac-msr-modules",
                         description:
                             "Firmware for prototype Jacdac modules made by Microsoft Research",
-                        href: "https://github.com/microsoft/jacdac-msr-modules",
+                        href: "https://github.com/jacdac/jacdac-msr-modules",
                     },
                     {
-                        title: "microsoft/jacdac-module-template",
+                        title: "jacdac/jacdac-module-template",
                         description:
                             "Template repository for firmware for a STM32G0-based Jacdac module",
-                        href: "https://github.com/microsoft/jacdac-module-template",
+                        href: "https://github.com/jacdac/jacdac-module-template",
                     },
                     {
-                        title: "microsoft/jacdac-esp32",
+                        title: "jacdac/jacdac-esp32",
                         description: "Firmware library for ESP32 IDF",
-                        href: "https://github.com/microsoft/jacdac-esp32",
+                        href: "https://github.com/jacdac/jacdac-esp32",
                     },
                     {
-                        title: "microsoft/jacdac-pico",
+                        title: "jacdac/jacdac-pico",
                         description: "Firmware library for Raspberry Pi Pico",
-                        href: "https://github.com/microsoft/jacdac-pico",
+                        href: "https://github.com/jacdac/jacdac-pico",
                     },
                     {
-                        title: "microsoft/jacdac-padauk",
+                        title: "jacdac/jacdac-padauk",
                         description: "Firmware library for PADAUK",
-                        href: "https://github.com/microsoft/jacdac-padauk",
+                        href: "https://github.com/jacdac/jacdac-padauk",
                     },
                     {
-                        title: "microsoft/jacdac-posix",
+                        title: "jacdac/jacdac-posix",
                         description:
                             "Firmware library for native Jacdac on desktop",
-                        href: "https://github.com/microsoft/jacdac-posix",
+                        href: "https://github.com/jacdac/jacdac-posix",
                     },
                     {
-                        title: "microsoft/codal-jacdac",
+                        title: "jacdac/codal-jacdac",
                         description: "Jacdac-C SDK integration for CODAL",
-                        href: "https://github.com/microsoft/codal-jacdac",
+                        href: "https://github.com/jacdac/codal-jacdac",
                     },
                 ]}
             />
@@ -113,9 +113,9 @@ export default function Page() {
                 dense
                 nodes={[
                     {
-                        title: "microsoft/jacdac-ts",
+                        title: "jacdac/jacdac-ts",
                         description: "TypeScript/JavaScript library",
-                        href: "https://github.com/microsoft/jacdac-ts",
+                        href: "https://github.com/jacdac/jacdac-ts",
                     },
                     {
                         title: "microsoft/devicescript",
@@ -123,19 +123,19 @@ export default function Page() {
                         href: "https://github.com/microsoft/devicescript",
                     },
                     {
-                        title: "microsoft/jacdac-dotnet",
+                        title: "jacdac/jacdac-dotnet",
                         description: ".NET (desktop, nano, tiny) library",
-                        href: "https://github.com/microsoft/jacdac-dotnet",
+                        href: "https://github.com/jacdac/jacdac-dotnet",
                     },
                     {
-                        title: "microsoft/jacdac-python",
+                        title: "jacdac/jacdac-python",
                         description: "Python (desktop) library",
-                        href: "https://github.com/microsoft/jacdac-python",
+                        href: "https://github.com/jacdac/jacdac-python",
                     },
                     {
-                        title: "microsoft/pxt-jacdac",
+                        title: "jacdac/pxt-jacdac",
                         description: "MakeCode library",
-                        href: "https://github.com/microsoft/pxt-jacdac",
+                        href: "https://github.com/jacdac/pxt-jacdac",
                     },
                 ]}
             />
@@ -146,24 +146,24 @@ export default function Page() {
                 dense
                 nodes={[
                     {
-                        title: "microsoft/jacdac-docs",
+                        title: "jacdac/jacdac-docs",
                         description: "Documentation, web tools and dashboard",
-                        href: "https://github.com/microsoft/jacdac-docs",
+                        href: "https://github.com/jacdac/jacdac-docs",
                     },
                     {
-                        title: "microsoft/jacdac-cli",
+                        title: "jacdac/jacdac-cli",
                         description: "Command line interface",
-                        href: "https://github.com/microsoft/jacdac-cli",
+                        href: "https://github.com/jacdac/jacdac-cli",
                     },
                     {
-                        title: "microsoft/react-jacdac",
+                        title: "jacdac/react-jacdac",
                         description: "React library",
-                        href: "https://github.com/microsoft/react-jacdac",
+                        href: "https://github.com/jacdac/react-jacdac",
                     },
                     {
-                        title: "microsoft/node-red-contrib-jacdac",
+                        title: "jacdac/node-red-contrib-jacdac",
                         description: "node-red-contrib-jacdac",
-                        href: "https://github.com/microsoft/node-red-contrib-jacdac",
+                        href: "https://github.com/jacdac/node-red-contrib-jacdac",
                     },
                     {
                         title: "microsoft/microcode",
@@ -182,8 +182,8 @@ export default function Page() {
 
             <p>
                 This project is hosted at{" "}
-                <Link href="https://github.com/microsoft/jacdac-docs">
-                    https://github.com/microsoft/jacdac-docs
+                <Link href="https://github.com/jacdac/jacdac-docs">
+                    https://github.com/jacdac/jacdac-docs
                 </Link>
                 . This project has adopted the{" "}
                 <Link href="https://opensource.microsoft.com/codeofconduct/">

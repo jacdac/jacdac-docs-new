@@ -160,10 +160,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/jacdac-docs"
+    "url": "https://github.com/jacdac/jacdac-docs"
   },
   "bugs": {
-    "url": "https://github.com/microsoft/jacdac-docs/issues"
+    "url": "https://github.com/jacdac/jacdac-docs/issues"
   },
   "browserslist": [
     "supports es6-module",

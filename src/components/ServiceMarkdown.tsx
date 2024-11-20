@@ -76,7 +76,7 @@ export default function ServiceMarkdown(props: {
             <ul>
                 <li>
                     <a
-                        href={`https://github.com/microsoft/jacdac/blob/main/services/${shortId}.md`}
+                        href={`https://github.com/jacdac/jacdac/blob/main/services/${shortId}.md`}
                     >
                         View source
                     </a>

@@ -97,7 +97,7 @@ We recommend the following ways of generating a unique identifier:
 
 3. Use a hardware random number generator in the MCU to generate a random 64 bit number during device commissioning - for example at first boot. This could use sensor values to create further entropy. Once generated it must be stored in non-volatile flash or EEPROM memory for future use.
 
-For an example, see [the Jacdac bootloader for STM32x0](https://github.com/microsoft/jacdac-stm32x0/blob/master/bl/blmain.c).
+For an example, see [the Jacdac bootloader for STM32x0](https://github.com/jacdac/jacdac-stm32x0/blob/master/bl/blmain.c).
 
 <RandomGenerator device={true} />
 
@@ -140,7 +140,7 @@ One wire is used for ground (GND), one for data (JD_DATA) and one for power (JD_
 In the simplest configurations, all devices on the Jacdac bus are connected
 directly to these three wires.
 
-Jacdac leverages a purpose-built, [Creative Commons CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) open-IP [connector standard](https://github.com/microsoft/jacdac-ddk/tree/main/connector#cable) that is optimized for cost, performance and user experience. One mating half of the connector takes the form of a three-conductor edge connector profile that is incorporated into the PCB design of Jacdac devices. The other mating half may be implemented in different ways, including a female-to-female cable.
+Jacdac leverages a purpose-built, [Creative Commons CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) open-IP [connector standard](https://github.com/jacdac/jacdac-ddk/tree/main/connector#cable) that is optimized for cost, performance and user experience. One mating half of the connector takes the form of a three-conductor edge connector profile that is incorporated into the PCB design of Jacdac devices. The other mating half may be implemented in different ways, including a female-to-female cable.
 
 ![jacdac module and cable picture](./images/cablepluggingintomodule.png)
 

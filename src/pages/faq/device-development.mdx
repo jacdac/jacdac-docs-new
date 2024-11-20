@@ -24,7 +24,7 @@ You need to decide on the best [power supply scheme](/ddk/design/electrical/#pow
 
 Yes! We provide a number of Jacdac device hardware and firmware reference designs with an open license for the community to use as-is and modify. If you do this, we'd love it if you share the things you build so that others may benefit in turn—but don't feel obligated to do this.
 
-* [Jacdac DDK repository](https://github.com/microsoft/jacdac-ddk/tree/main/electronics)
+* [Jacdac DDK repository](https://github.com/jacdac/jacdac-ddk/tree/main/electronics)
 
 ## How do I get a new product identifier?
 
@@ -48,7 +48,7 @@ Other than the above requirements, modules can have different shapes. Two exampl
 
 The Jacdac bus (JD_PWR) nominally runs at V<sub>out(nom)</sub> = 5.0V, see the [Jacdac electrical specification](/reference/electrical-spec/#power-providers). However, due to cable resistance there will be a voltage drop on both the out-bound current path and the return current path. At higher currents, this can significantly reduce the bus voltage seen by a [power consuming device](/ddk/design/electrical/#power-supply-sharing).
 
-Power consuming devices must therefore be designed to operate from a worst-case voltage of V<sub>in(min)</sub>=3.5V. Since devices have to signal at V<sub>OH(nom)</sub> = 3.3V, it is often convenient to use a low drop-out linear regulator (LDO) to regulate the bus voltage to 3.3V for a device's digital logic, for example [these suggested parts](https://github.com/microsoft/jacdac-ddk/tree/main/electronics/generic/suggested-components#linear-regulator-ldo).
+Power consuming devices must therefore be designed to operate from a worst-case voltage of V<sub>in(min)</sub>=3.5V. Since devices have to signal at V<sub>OH(nom)</sub> = 3.3V, it is often convenient to use a low drop-out linear regulator (LDO) to regulate the bus voltage to 3.3V for a device's digital logic, for example [these suggested parts](https://github.com/jacdac/jacdac-ddk/tree/main/electronics/generic/suggested-components#linear-regulator-ldo).
 
 ## What voltage should a power provider supply?
 

@@ -5,14 +5,14 @@
 This repository contains sources of [Jacdac](https://aka.ms/jacdac).
 
 -   [User Documentation](https://aka.ms/jacdac/)
--   Discussions at https://github.com/microsoft/jacdac/discussions
--   Issues are tracked on https://github.com/microsoft/jacdac/issues
+-   Discussions at https://github.com/jacdac/jacdac/discussions
+-   Issues are tracked on https://github.com/jacdac/jacdac/issues
 
 The rest of this page is for developers of the jacdac-ts library.
 
 ## Developer setup
 
--   Open this repository online at https://github.dev/microsoft/jacdac-docs
+-   Open this repository online at https://github.dev/jacdac/jacdac-docs
 
 All command line instructions assume a bash-like terminal.
 
@@ -22,7 +22,7 @@ On Windows, you may need to run these commands within Git Bash or Windows Subsys
 
 Edit this project directly from your browser using GitHub Codespaces. If you have access to them,
 
--   open project in a new codespace (https://github.dev/microsoft/jacdac-docs)
+-   open project in a new codespace (https://github.dev/jacdac/jacdac-docs)
 -   launch the docs server
 
 ```
@@ -131,7 +131,7 @@ https://makecode.com/multi?jacdac=1&localhost=1&beta=1
 
 ### Adding a new MakeCode client
 
-Create a new issue in https://github.com/microsoft/jacdac and select the `MakeCode client` template.
+Create a new issue in https://github.com/jacdac/jacdac and select the `MakeCode client` template.
 
 ### HTML tools
 
@@ -172,7 +172,7 @@ The releases are automatically created by the build system based on the title of
 
 ## Microsoft Open Source Code of Conduct
 
-This project is hosted at https://github.com/microsoft/jacdac-ts.
+This project is hosted at https://github.com/jacdac/jacdac-ts.
 This project has adopted the
 [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 

@@ -176,13 +176,13 @@ export default function GithubPullRequestButton(
                     <DialogContentText>
                         We will open a new Pull Request in{" "}
                         <Link
-                            href="https://github.com/microsoft/jacdac"
+                            href="https://github.com/jacdac/jacdac"
                             rel="noreferrer nofollower"
                         >
-                            microsoft/jacdac
+                            jacdac/jacdac
                         </Link>{" "}
                         with your files. If needed, we will fork{" "}
-                        <code>microsoft/jacdac</code> under your account and
+                        <code>jacdac/jacdac</code> under your account and
                         create a Pull Request in that repository.
                     </DialogContentText>
                     <ApiKeyAccordion

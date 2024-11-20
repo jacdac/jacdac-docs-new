@@ -1,5 +1,5 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/javascript-node
+// https://github.com/jacdac/vscode-dev-containers/tree/v0.134.0/containers/javascript-node
 {
     "name": "Node.js",
     "build": {
@@ -30,21 +30,21 @@
     "customizations": {
         "codespaces": {
             "repositories": {
-                "microsoft/jacdac-ts": {
+                "jacdac/jacdac-ts": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/jacdac-ddk": {
+                "jacdac/jacdac-ddk": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/node-red-contrib-jacdac": {
+                "jacdac/node-red-contrib-jacdac": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
@@ -58,49 +58,49 @@
                         "workflows": "write"
                     }
                 },
-                "microsoft/react-jacdac": {
+                "jacdac/react-jacdac": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/jacdac-cli": {
+                "jacdac/jacdac-cli": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/jacdac-python": {
+                "jacdac/jacdac-python": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/pxt-jacdac": {
+                "jacdac/pxt-jacdac": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/jacdac-dotnet": {
+                "jacdac/jacdac-dotnet": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/jacdac": {
+                "jacdac/jacdac": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",
                         "workflows": "write"
                     }
                 },
-                "microsoft/jacdac-c": {
+                "jacdac/jacdac-c": {
                     "permissions": {
                         "contents": "write",
                         "pull_requests": "write",

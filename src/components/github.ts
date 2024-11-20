@@ -103,7 +103,7 @@ export async function fetchLatestFirmwareRelease(
     status: number
     release?: GithubFirmwareRelease
 }> {
-    // https://api.github.com/repos/microsoft/jacdac-msr-modules/contents/dist
+    // https://api.github.com/repos/jacdac/jacdac-msr-modules/contents/dist
     const { repoPath } = normalizeSlug(slug)
     const uri = `${ROOT}repos/${repoPath}/contents/dist`
     const resp = await fetch(uri)

@@ -40,7 +40,7 @@ export default function Footer() {
     return (
         <Root role="contentinfo" className={classes.footer}>
             <a
-                href="https://github.com/microsoft/jacdac/discussions"
+                href="https://github.com/jacdac/jacdac/discussions"
                 target="_blank"
                 rel="noopener noreferrer"
             >
