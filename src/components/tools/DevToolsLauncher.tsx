@@ -10,7 +10,7 @@ export default function DevToolsLauncher() {
     const [text, setText] = useState("")
     const bus = useBus()
 
-    const url = `https://microsoft.github.io/jacdac-docs/clients/javascript/devtools#${
+    const url = `https://jacdac.github.io/jacdac-docs/clients/javascript/devtools#${
         text || ""
     }`
     const handleChange = (ev: ChangeEvent<HTMLInputElement>) =>

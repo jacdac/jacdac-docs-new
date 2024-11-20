@@ -1,7 +1,7 @@
 const { identifierToUrlPath } = require(`./jacdac-ts/dist/jacdac.cjs`)
 
 const maxImageWidth = 800
-const siteUrl = "https://microsoft.github.io"
+const siteUrl = "https://jacdac.github.io"
 const pathPrefix = "/jacdac-docs"
 
 const wsl = !!process.env.WSL_DISTRO_NAME || !!process.env.CODESPACE_NAME

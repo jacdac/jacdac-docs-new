@@ -428,7 +428,7 @@ exports.onPostBuild = async ({ graphql }) => {
             .map(
                 node =>
                     `${
-                        "https://microsoft.github.io/jacdac-docs" + node.path
+                        "https://jacdac.github.io/jacdac-docs" + node.path
                     }, ${node.path.slice(1)}`
             )
             .join("\n")
@@ -446,7 +446,7 @@ exports.onPostBuild = async ({ graphql }) => {
             .map(
                 node =>
                     `${
-                        "https://microsoft.github.io/jacdac-docs" + node.path
+                        "https://jacdac.github.io/jacdac-docs" + node.path
                     }, ${node.path.slice(1)}`
             )
             .join("\n")

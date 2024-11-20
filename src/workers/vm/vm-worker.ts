@@ -1,5 +1,5 @@
 importScripts(
-    "https://microsoft.github.io/devicescript/dist/devicescript-vm.js"
+    "https://jacdac.github.io/devicescript/dist/devicescript-vm.js"
 )
 
 export interface VMMessage {

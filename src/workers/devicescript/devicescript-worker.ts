@@ -1,5 +1,5 @@
 importScripts(
-    "https://microsoft.github.io/devicescript/dist/devicescript-compiler.js"
+    "https://jacdac.github.io/devicescript/dist/devicescript-compiler.js"
 )
 
 const { compile } = (self as any).deviceScript

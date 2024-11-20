@@ -363,7 +363,7 @@ export default function DeviceSpecification(props: {
                     nodes={services
                         .map(serviceSpecificationFromClassIdentifier)
                         .map(srv => ({
-                            href: `https://microsoft.github.io/devicescript/api/clients/${srv.shortId}`,
+                            href: `https://jacdac.github.io/devicescript/api/clients/${srv.shortId}`,
                             title: srv.name,
                         }))}
                 />

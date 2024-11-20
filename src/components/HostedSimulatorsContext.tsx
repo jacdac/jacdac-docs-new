@@ -99,14 +99,14 @@ export function hostedSimulatorDefinitions(): HostedSimulatorDefinition[] {
         {
             id: "microbitjukebox",
             name: "micro:bit V2 Jukebox",
-            url: "https://microsoft.github.io/pxt-jacdac/?tool=microbit-jukebox",
+            url: "https://jacdac.github.io/pxt-jacdac/?tool=microbit-jukebox",
             width: "20rem",
             height: "17.5rem",
         },
         {
             id: "microbitmicrocode",
             name: "micro:bit V2 MicroCode servers",
-            url: "https://microsoft.github.io/pxt-jacdac/?tool=microbit-microcode-servers",
+            url: "https://jacdac.github.io/pxt-jacdac/?tool=microbit-microcode-servers",
             width: "20rem",
             height: "17.5rem",
             requiresDeviceScript: true,
@@ -114,7 +114,7 @@ export function hostedSimulatorDefinitions(): HostedSimulatorDefinition[] {
         Flags.diagnostics && {
             id: "arcademultitool",
             name: "MakeCode Arcade multitool",
-            url: "https://microsoft.github.io/pxt-jacdac/?tool=multitool",
+            url: "https://jacdac.github.io/pxt-jacdac/?tool=multitool",
             width: "25vw",
             height: "28.75vw",
         },
