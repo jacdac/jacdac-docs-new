@@ -88,7 +88,7 @@ export default function GithubPullRequestButton(
             // Returns a normal Octokit PR response
             // See https://octokit.github.io/rest.js/#octokit-routes-pulls-create
             const result = await octokit.createPullRequest({
-                owner: "microsoft",
+                owner: "jacdac",
                 repo: "jacdac",
                 title,
                 body,

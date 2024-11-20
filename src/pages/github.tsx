@@ -177,41 +177,6 @@ export default function Page() {
                     },
                 ]}
             />
-
-            <h2> Microsoft Open Source Code of Conduct</h2>
-
-            <p>
-                This project is hosted at{" "}
-                <Link href="https://github.com/jacdac/jacdac-docs">
-                    https://github.com/jacdac/jacdac-docs
-                </Link>
-                . This project has adopted the{" "}
-                <Link href="https://opensource.microsoft.com/codeofconduct/">
-                    Microsoft Open Source Code of Conduct
-                </Link>
-                .
-            </p>
-
-            <h3>Resources</h3>
-            <ul>
-                <li>
-                    <Link href="https://opensource.microsoft.com/codeofconduct/">
-                        Microsoft Open Source Code of Conduct
-                    </Link>
-                </li>
-                <li>
-                    <Link href="https://opensource.microsoft.com/codeofconduct/faq/">
-                        Microsoft Code of Conduct FAQ
-                    </Link>
-                </li>
-                <li>
-                    Contact{" "}
-                    <Link href="mailto:opencode@microsoft.com">
-                        opencode@microsoft.com
-                    </Link>{" "}
-                    with questions or concerns
-                </li>
-            </ul>
         </>
     )
 }

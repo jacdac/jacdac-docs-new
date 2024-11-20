@@ -15,7 +15,7 @@ module.exports = {
     siteMetadata: {
         title: SITE_TITLE,
         description: SITE_DESCRIPTION,
-        author: `Microsoft`,
+        author: `Jacdac`,
         siteUrl: siteUrl,
     },
     pathPrefix: pathPrefix,

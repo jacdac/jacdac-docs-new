@@ -8,7 +8,7 @@ export default function MakeCodeDependencies(props: { slug: string; branch: stri
     const pxt = usePxtJson(slug, branch)
     const dependencies: Record<string, string> = pxt?.dependencies || {}
     const jds = Object.entries(dependencies).filter(([, value]) =>
-        /^github:microsoft\/pxt-jacdac\/\w/i.test(value)
+        /^github:jacdac\/pxt-jacdac\/\w/i.test(value)
     )
     if (!jds.length) return null
 
@@ -17,7 +17,7 @@ export default function MakeCodeDependencies(props: { slug: string; branch: stri
             Jacdac dependencies:
             {jds.map(([key, value]) => (
                 <span style={{ marginLeft: "0.5em" }} key={key}>
-                    {value.replace(/^github:microsoft\/pxt-jacdac\//i, "")},
+                    {value.replace(/^github:jacdac\/pxt-jacdac\//i, "")},
                 </span>
             ))}
         </Typography>
