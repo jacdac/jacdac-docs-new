@@ -337,9 +337,6 @@ async function createVersions() {
 // create pages.
 exports.createPages = async ({ graphql, actions, reporter }) => {
     await generateServicesJSON()
-    await createServicePages(graphql, actions, reporter)
-    await createDevicePages(graphql, actions, reporter)
-    await createDeviceQRPages(actions, reporter)
     await createWorkers()
     await createVersions()
     await createRedirects(actions)

@@ -1,0 +1,62 @@
+ERROR #85923  GRAPHQL
+
+There was an error in your GraphQL query:
+
+Cannot query field "services" on type "MdxFrontmatter".
+
+If you don't expect "services" to exist on the type "MdxFrontmatter" it is most likely a typo. However, if you expect "services" to exist there are a couple of solutions to
+common problems:
+
+- If you added a new data source and/or changed something inside gatsby-node/gatsby-config, please try a restart of your development server.
+- You want to optionally use your field "services" and right now it is not used anywhere.
+
+It is recommended to explicitly type your GraphQL schema if you want to use optional fields.
+
+File: src/components/makecode/MakeCodeProjects.tsx:53:29
+
+See our docs page for more info on this error: https://gatsby.dev/creating-type-definitions
+
+
+ ERROR #85923  GRAPHQL
+
+There was an error in your GraphQL query:
+
+Cannot query field "services" on type "MdxFrontmatter".
+
+If you don't expect "services" to exist on the type "MdxFrontmatter" it is most likely a typo. However, if you expect "services" to exist there are a couple of solutions to
+common problems:
+
+- If you added a new data source and/or changed something inside gatsby-node/gatsby-config, please try a restart of your development server.
+- You want to optionally use your field "services" and right now it is not used anywhere.
+
+It is recommended to explicitly type your GraphQL schema if you want to use optional fields.
+
+File: src/components/python/PythonProjects.tsx:53:29
+
+See our docs page for more info on this error: https://gatsby.dev/creating-type-definitions
+
+
+ ERROR #85923  GRAPHQL
+
+There was an error in your GraphQL query:
+
+Cannot query field "hideToc" on type "MdxFrontmatter".
+
+If you don't expect "hideToc" to exist on the type "MdxFrontmatter" it is most likely a typo. However, if you expect "hideToc" to exist there are a couple of solutions to
+common problems:
+
+- If you added a new data source and/or changed something inside gatsby-node/gatsby-config, please try a restart of your development server.
+- You want to optionally use your field "hideToc" and right now it is not used anywhere.
+
+It is recommended to explicitly type your GraphQL schema if you want to use optional fields.
+
+File: src/components/shell/Toc.tsx:138:29
+
+See our docs page for more info on this error: https://gatsby.dev/creating-type-definitions
+
+failed extract queries from components - 4.739s
+not finished Running gatsby-plugin-sharp.IMAGE_PROCESSING jobs - 1.399s
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+@thomasjball ➜ /workspaces/jacdac-docs (makecodesim) $ 
