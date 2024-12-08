@@ -336,7 +336,6 @@ async function createVersions() {
 // access to any information necessary to programmatically
 // create pages.
 exports.createPages = async ({ graphql, actions, reporter }) => {
-    await generateServicesJSON()
     await createWorkers()
     await createVersions()
     await createRedirects(actions)
