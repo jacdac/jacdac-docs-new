@@ -63,13 +63,11 @@ export const onServiceWorkerUpdateReady = () => {
     window.location.reload(true)
 }
 
-export const wrapPageElement = ({ element, props }) => {
-    // props provide same data to Layout as Page element will get
-    // including location, data, etc - you don't need to pass it
-    return <div {...props}>{element}</div>
-}
-
-
+export const wrapPageElement = ({ element, props }) => (
+    <>
+    {element}
+    </>)
+  
 window.addEventListener(`unhandledrejection`, event => {
     if (/loading chunk \d* failed/i.test(event.reason)) {
         console.log(`loading chunk failed, trying to update...`)
