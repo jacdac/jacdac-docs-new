@@ -63,7 +63,7 @@ export const onServiceWorkerUpdateReady = () => {
     window.location.reload(true)
 }
 
-export const wrapPageElement = e => e
+// export const wrapPageElement = e => e
   
 window.addEventListener(`unhandledrejection`, event => {
     if (/loading chunk \d* failed/i.test(event.reason)) {
