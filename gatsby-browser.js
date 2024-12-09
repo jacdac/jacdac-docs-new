@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Layout from "./src/components/layout"
 
 const UPDATE_DEBOUNCE = 5000
 let lastUpdate = Date.now()
@@ -63,9 +64,7 @@ export const onServiceWorkerUpdateReady = () => {
     window.location.reload(true)
 }
 
-export const wrapPageElement = ({ element, props }) => {
-    return <div {...props}>{element}</div>
-}
+// export const wrapPageElement = Layout
 
 window.addEventListener(`unhandledrejection`, event => {
     if (/loading chunk \d* failed/i.test(event.reason)) {
