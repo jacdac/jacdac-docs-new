@@ -1,4 +1,3 @@
-import Layout from "./src/components/layout"
 import React from "react"
 import ReactDOM from "react-dom"
 
@@ -67,8 +66,9 @@ export const onServiceWorkerUpdateReady = () => {
 export const wrapPageElement = ({ element, props }) => {
     // props provide same data to Layout as Page element will get
     // including location, data, etc - you don't need to pass it
-    return element
+    return <div>{element}</div>
 }
+
 
 window.addEventListener(`unhandledrejection`, event => {
     if (/loading chunk \d* failed/i.test(event.reason)) {
