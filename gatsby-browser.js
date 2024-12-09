@@ -63,8 +63,10 @@ export const onServiceWorkerUpdateReady = () => {
     window.location.reload(true)
 }
 
-// export const wrapPageElement = e => e
-  
+export const wrapPageElement = ({ element, props }) => {
+    return <div {...props}>{element}</div>
+}
+
 window.addEventListener(`unhandledrejection`, event => {
     if (/loading chunk \d* failed/i.test(event.reason)) {
         console.log(`loading chunk failed, trying to update...`)
