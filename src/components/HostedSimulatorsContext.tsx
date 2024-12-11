@@ -145,7 +145,7 @@ function HostedSimulatorCard(props: { sim: HostedSimulator }) {
                 if (id === pkt._jacdac_sender) return
                 const msg: PacketMessage = {
                     type: "messagepacket",
-                    channel: "jacdac",
+                    channel: "jacdac/pxt-jacdac",
                     broadcast: false,
                     data: pkt,
                     sender: pkt._jacdac_sender,
@@ -216,7 +216,7 @@ export const HostedSimulatorsProvider = ({ children }) => {
         const { data } = event
         const msg = data as PacketMessage
         const { channel, type, sender } = msg
-        if (channel !== "jacdac" || type !== "messagepacket") return
+        if (channel !== "jacdac/pxt-jacdac" || type !== "messagepacket") return
         const sim = simulators.find(sim => sim.id === sender)
         if (!sim) return
 
