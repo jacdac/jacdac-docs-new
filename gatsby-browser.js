@@ -1,6 +1,6 @@
-import Layout from "./src/components/layout"
 import React from "react"
 import ReactDOM from "react-dom"
+import Layout from "./src/components/layout"
 
 const UPDATE_DEBOUNCE = 5000
 let lastUpdate = Date.now()
@@ -19,7 +19,7 @@ function tryUpdate(force) {
         ) {
             console.debug(`jacdac: check for updates`)
             try {
-                const req = await fetch("/jacdac-docs/version.json")
+                const req = await fetch("/pxt-jacdac/version.json")
                 if (!req.ok) {
                     console.debug(`fetch version.json failed, probably offline`)
                     return
