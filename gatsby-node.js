@@ -109,12 +109,8 @@ async function createRedirects(actions) {
     const { createRedirect } = actions
     const rs = [
         {
-            fromPath: `/tools/module-tester`,
-            toPath: `/tools/device-tester`,
-        },
-        {
-            fromPath: `/clients/p5js`,
-            toPath: `/clients/javascript/p5js`,
+            fromPath: `/`,
+            toPath: `/tools/makecode-sim`,
         },
     ]
     rs.forEach(r => createRedirect(r))
