@@ -337,6 +337,9 @@ async function createVersions() {
 // create pages.
 exports.createPages = async ({ graphql, actions, reporter }) => {
     await generateServicesJSON()
+    await createServicePages(graphql, actions, reporter)
+    await createDevicePages(graphql, actions, reporter)
+    await createDeviceQRPages(actions, reporter)
     await createWorkers()
     await createVersions()
     await createRedirects(actions)
@@ -408,6 +411,9 @@ exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
 
 // generate a full list of pages for compliance
 exports.onPostBuild = async ({ graphql }) => {
+
+}
+/*
     console.log(`compliance step`)
     const { data } = await graphql(`
         {
@@ -449,3 +455,4 @@ exports.onPostBuild = async ({ graphql }) => {
             .join("\n")
     )
 }
+    */
